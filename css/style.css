@@ -2,4 +2,78 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+.container {
+  max-width: 1020px;
+  margin: auto;
+}
+
+body {
+  background-color: #3e3b4a;
+}
+
+.navbar-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  min-height: 200px;
+  width: 100%;
+}
+
+.navbar__menu-button {
+  border: none;
+  height: 60px;
+  width: 100px;
+  background-color: transparent;
+  padding: 15px 10px 15px 50px;
+  background: url("../../img/navbar_button.png") no-repeat 22px center;
+}
+
+.navbar__button-text {
+  text-transform: uppercase;
+  font-family: 'Campton Bold', sans-serif;
+  color: #898691;
+  font-size: 10px;
+  line-height: 10px;
+}
+
+.navbar .logo-name {
+  display: block;
+  font-size: 35px;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Campton Bold', sans-serif;
+}
+
+.navbar .logo-description {
+  display: block;
+  color: #76737f;
+  font-size: 12px;
+}
+
+@font-face {
+  font-family: 'Campton Bold';
+  src: url("../fonts/Campton-Bold.eot");
+  src: url("../fonts/Campton-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Campton-Bold.woff") format("woff"), url("../fonts/Campton-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Campton Light';
+  src: url("../fonts/Campton-Light.eot");
+  src: url("../fonts/Campton-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Campton-Light.woff") format("woff"), url("../fonts/Campton-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Campton Light', sans-serif;
+}
 /*# sourceMappingURL=style.css.map */

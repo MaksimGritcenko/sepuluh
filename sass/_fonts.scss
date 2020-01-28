@@ -1,0 +1,27 @@
+@font-face {
+	font-family: 'Campton Bold';
+	src: url('../fonts/Campton-Bold.eot');
+	src: url('../fonts/Campton-Bold.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Campton-Bold.woff') format('woff'),
+	url('../fonts/Campton-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	}
+
+@font-face {
+	font-family: 'Campton Light';
+	src: url('../fonts/Campton-Light.eot');
+	src: url('../fonts/Campton-Light.eot?#iefix')format('embedded-opentype'),
+	url('../fonts/Campton-Light.woff') format('woff'),
+	url('../fonts/Campton-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	}
+
+	@mixin light {
+		font-family: 'Campton Light', sans-serif;
+	}
+	@mixin bold {
+		font-family: 'Campton Bold', sans-serif;
+	}
+
