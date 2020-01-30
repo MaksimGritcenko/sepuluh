@@ -32,6 +32,7 @@ body {
   width: 100px;
   background-color: transparent;
   padding: 15px 10px 15px 50px;
+  margin-left: 0;
   background: url("../../img/navbar_button.png") no-repeat 22px center;
 }
 
@@ -41,6 +42,21 @@ body {
   color: #898691;
   font-size: 10px;
   line-height: 10px;
+}
+
+.navbar__search {
+  position: relative;
+  background: #3e3b4a;
+  color: #898691;
+  font-family: 'Campton Bold', sans-serif;
+  font-size: 13px;
+  border: none;
+  text-align: right;
+}
+
+.navbar__search-img {
+  position: absolute;
+  top: 50px;
 }
 
 .navbar .logo-name {
@@ -55,6 +71,52 @@ body {
   display: block;
   color: #76737f;
   font-size: 12px;
+}
+
+.section-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 45px;
+  background-image: url("../../img/home_background.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 512px;
+}
+
+.section__header {
+  display: block;
+  font-family: 'Campton Bold', sans-serif;
+  color: #ffffff;
+  font-size: 50px;
+}
+
+.section__name {
+  display: block;
+  font-family: 'Campton Bold', sans-serif;
+  text-transform: uppercase;
+  color: #ffc7b0;
+  font-size: 10px;
+}
+
+.section__description {
+  display: block;
+  color: #ffffff;
+  font-size: 25px;
+  margin-bottom: 90px;
+}
+
+.section__button {
+  font-family: 'Campton Bold', sans-serif;
+  color: #ffffff;
+  background-color: transparent;
+  border: 2px solid #ffe18f;
+  height: 40px;
+  width: 125px;
 }
 
 @font-face {
