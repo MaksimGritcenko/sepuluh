@@ -18,10 +18,27 @@
 	font-style: normal;
 	}
 
-	@mixin light {
+@font-face {
+		font-family: 'Old Standard Bold';
+		src: url('../fonts/OldStandardTT-Bold.eot');
+		src: url('../fonts/OldStandardTT-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/OldStandardTT-Bold.woff') format('woff'),
+		url('../fonts/OldStandardTT-Bold.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+		}
+
+
+
+@mixin light {
 		font-family: 'Campton Light', sans-serif;
 	}
-	@mixin bold {
+@mixin bold {
 		font-family: 'Campton Bold', sans-serif;
 	}
+@mixin standard {
+	font-family: 'Old Standard Bold', sans-serif;
+}
+
+
 
